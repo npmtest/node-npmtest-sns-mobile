@@ -1,6 +1,6 @@
 # npmtest-sns-mobile
 
-#### test coverage for  [sns-mobile (v1.3.0)](https://github.com/evanshortiss/sns-mobile)  [![npm package](https://img.shields.io/npm/v/npmtest-sns-mobile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sns-mobile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sns-mobile.svg)](https://travis-ci.org/npmtest/node-npmtest-sns-mobile)
+#### basic test coverage for  [sns-mobile (v1.3.0)](https://github.com/evanshortiss/sns-mobile)  [![npm package](https://img.shields.io/npm/v/npmtest-sns-mobile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sns-mobile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sns-mobile.svg)](https://travis-ci.org/npmtest/node-npmtest-sns-mobile)
 
 #### Send push notifications to Android, Kindle Fire, and iOS devices easily.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sns-mobile/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sns-mobile/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sns-mobile/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sns-mobile/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sns-mobile/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sns-mobile/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sns-mobile/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sns-mobile/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sns-mobile/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sns-mobile/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sns-mobile/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sns-mobile/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
         "test": "mocha test/",
         "test-debug": "mocha --debug-brk test/"
     },
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
